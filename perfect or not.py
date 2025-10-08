@@ -6,5 +6,4 @@ for i in range(1, n):
 if sum == n:        
     print("Perfect Number")    
 else:
-    print("Not a Perfect Number")   
-        
+    print("Not a Perfect Number")        
