@@ -1,5 +1,5 @@
 # This is a decorator
-def my_decorator(func):
+def my_decorrator(func):
     def wrapper():
         print("Before the function runs...")
         func()
@@ -7,7 +7,7 @@ def my_decorator(func):
     return wrapper
 
 # Apply decorator
-@my_decorator
+@my_decorrator
 def say_hello():
     print("Hello, World!")
 
